@@ -4,6 +4,7 @@
   "description": "Slack App that helps you update your status easily",
   "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "test"
   },
   "repository": {
