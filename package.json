@@ -1,0 +1,26 @@
+{
+  "name": "slack-status-manager",
+  "version": "1.0.0",
+  "description": "Slack App that helps you update your status easily",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RodrigoCSoares/slack-status-manager.git"
+  },
+  "keywords": [
+    "slack",
+    "app"
+  ],
+  "author": "Rodrigo de Campos Soares",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RodrigoCSoares/slack-status-manager/issues"
+  },
+  "homepage": "https://github.com/RodrigoCSoares/slack-status-manager#readme",
+  "dependencies": {
+    "@slack/bolt": "^2.0.1"
+  }
+}
