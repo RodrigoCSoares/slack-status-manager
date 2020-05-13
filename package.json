@@ -2,9 +2,9 @@
   "name": "slack-status-manager",
   "version": "1.0.0",
   "description": "Slack App that helps you update your status easily",
-  "main": "app.js",
+  "main": "./dist/main.js",
   "scripts": {
-    "start": "node app.js",
+    "start": "node ./dist/main.js",
     "test": "test"
   },
   "repository": {
@@ -23,5 +23,10 @@
   "homepage": "https://github.com/RodrigoCSoares/slack-status-manager#readme",
   "dependencies": {
     "@slack/bolt": "^2.0.1"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "typescript": "^3.9.2"
   }
 }
